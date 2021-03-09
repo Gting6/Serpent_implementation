@@ -7,5 +7,7 @@ This project implement the algorithm by Verilog, using XILINX PYNQ and Serpent o
 
 ### Implementation ###
 iverilog -o out ./tb.v
+
 vvp out
+
 gtkwave top.vcd  
